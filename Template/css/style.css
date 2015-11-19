@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: times;
+}
+
+#container{
+	width:1200px;
+	height:555px;
+	background-color: gray;
+	margin: 0 auto;
+}
+
+#header{
+	width:1198px;
+	border: 1px solid black;
+}
+
+	#logo{
+		width:198px;
+		height:100px;
+		background-image: url(../images/sun.jpg);
+		background-size: cover;
+		float: left;
+		border-right: 1px solid black;
+
+	}
+
+	#phase {
+		width:999px;	
+		height:90px;
+		text-align: center;
+		font-size: 65px;
+		padding-top: 10px;
+		float: left;
+		background-color: orange;
+		color: white;
+	} 
+
+#nav{
+	width:1200px;
+	background-color: #FFBF00;
+	color: white;
+}
+
+	#nav li{
+		width:298px;
+		padding: 5px 0;
+		text-align: center;
+		float: left;
+		border: 1px solid black;
+		list-style-type: none;
+
+	}
+
+	#nav li:hover{
+		background-color: #FFF200;
+		color: #FF4C00;
+	}
+
+#side-bar{
+	width:300px;
+	height:400px;
+	background-color: orange;
+	float:left;
+}
+
+	#side-bar-title{
+		width:299px;
+		height:40px;
+		background-color: orange;
+		color: white;
+		text-decoration: underline;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 5px;
+		border: 1px solid black;
+	}
+
+	#side-bar-img{
+		width:299px;
+		height:200px;
+		background-color: gray;
+		background-image: url(../images/strength.jpg);
+		background-size: cover;
+		border: 1px solid black;
+	}
+
+	#side-bar-desc{
+		width:299px;
+		height:150px;
+		background-color: orange;
+		font-size: 20px;
+		text-align: center;
+		padding-top: 20px;
+		color: white;
+		border: 1px solid black;
+	}
+
+#main-content{
+	width:899px;
+	height:420px;
+	float:right;
+}
+
+	#info
+    {
+    	width: 899px;
+		height: 370px;
+		background-color: #FF8C00;
+		float:right;
+		border-right: 1px solid black;
+		color: white;
+		text-align: center;
+    }
+
+    #info h2{
+    	font-size: 20px;
+    	margin: 5px;
+    	font-style: italic;
+
+    }
+
+     #info h4{
+    	margin: 5px;
+    }
+
+    #info img{
+    	height: 175px; 
+    	width: 175px;
+    }
+
+    #location
+    {
+    	width: 899px;
+		height:35px;
+		background-color: orange;
+		float:right;
+		border-right: 1px solid black;
+		border-top: 1px dashed black;
+		border-bottom: 1px solid black;
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		padding-top: 14px;
+    }
+
+#tab{
+	margin: 0 auto;
+}
+
+#tab td{
+	height:150px;
+	width:150px;
+}
+
+#tab img{
+	height:150px;
+	width:150px;
+}
+
+#tab audio{
+	height:150px;
+	width:150px;
+}
+
+#head_iframe{
+	width:1200px;
+	height:134px;
+	border: 0;
+}
+
+#sbar_iframe{
+	width:301px;
+	height:450px;
+	border: 0;
+}
